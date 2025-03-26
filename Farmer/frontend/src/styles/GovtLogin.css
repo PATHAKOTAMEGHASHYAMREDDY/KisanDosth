@@ -1,0 +1,90 @@
+/* src/styles/GovtLogin.css */
+.login-container {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.login-container h2 {
+    font-size: 2rem;
+    color: #d81b60; /* Government color */
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #d81b60; /* Government color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ad1457; /* Darker shade for hover */
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    color: #d81b60; /* Government color */
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.toggle-btn:hover {
+    text-decoration: underline;
+}
+
+.login-container p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.login-container a {
+    color: #d81b60; /* Government color */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}   
